@@ -9,6 +9,7 @@ import Button from "@material-ui/core/Button";
 import BookIcon from "@material-ui/icons/MenuBookOutlined";
 import CarIcon from "@material-ui/icons/DirectionsCarOutlined";
 import { questions, answers } from "./data";
+import { Badge } from "@material-ui/core";
 
 const phrases = {
   title: "ענה על החידה",
@@ -53,7 +54,19 @@ const Questions = ({ questionId, onAnswer }) => {
         <Typography variant="h6" className={classes.listTitle}>
           {question.text}
         </Typography>
-        <QuestionIcon />
+        <Grid item xs={12} direction="row">
+          <Badge
+            anchorOrigin={{
+              vertical: "top",
+              horizontal: "left",
+            }}
+            badgeContent={question.page}
+            color="secondary"
+            invisible={question.type !== "book"}
+          >
+            <QuestionIcon fontSize="large" />
+          </Badge>
+        </Grid>
         <List>
           {answers[questionId].map((q, i) => (
             <ListItem
