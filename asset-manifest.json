@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/nitay-quest/static/js/main.a2b3cfb5.chunk.js",
-    "main.js.map": "/nitay-quest/static/js/main.a2b3cfb5.chunk.js.map",
+    "main.js": "/nitay-quest/static/js/main.0ed9e8b2.chunk.js",
+    "main.js.map": "/nitay-quest/static/js/main.0ed9e8b2.chunk.js.map",
     "runtime-main.js": "/nitay-quest/static/js/runtime-main.22be4a30.js",
     "runtime-main.js.map": "/nitay-quest/static/js/runtime-main.22be4a30.js.map",
-    "static/js/2.7230d307.chunk.js": "/nitay-quest/static/js/2.7230d307.chunk.js",
-    "static/js/2.7230d307.chunk.js.map": "/nitay-quest/static/js/2.7230d307.chunk.js.map",
+    "static/js/2.97be6380.chunk.js": "/nitay-quest/static/js/2.97be6380.chunk.js",
+    "static/js/2.97be6380.chunk.js.map": "/nitay-quest/static/js/2.97be6380.chunk.js.map",
     "index.html": "/nitay-quest/index.html",
-    "static/js/2.7230d307.chunk.js.LICENSE.txt": "/nitay-quest/static/js/2.7230d307.chunk.js.LICENSE.txt",
+    "static/js/2.97be6380.chunk.js.LICENSE.txt": "/nitay-quest/static/js/2.97be6380.chunk.js.LICENSE.txt",
     "static/media/done.539d44c6.gif": "/nitay-quest/static/media/done.539d44c6.gif",
     "static/media/happy.1061703d.gif": "/nitay-quest/static/media/happy.1061703d.gif",
     "static/media/sad.7dd4e3bb.gif": "/nitay-quest/static/media/sad.7dd4e3bb.gif",
@@ -15,7 +15,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.22be4a30.js",
-    "static/js/2.7230d307.chunk.js",
-    "static/js/main.a2b3cfb5.chunk.js"
+    "static/js/2.97be6380.chunk.js",
+    "static/js/main.0ed9e8b2.chunk.js"
   ]
 }
