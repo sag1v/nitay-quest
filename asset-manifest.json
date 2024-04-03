@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.js": "/nitay-quest/static/js/main.d9c666e2.chunk.js",
-    "main.js.map": "/nitay-quest/static/js/main.d9c666e2.chunk.js.map",
+    "main.js": "/nitay-quest/static/js/main.8900b715.chunk.js",
+    "main.js.map": "/nitay-quest/static/js/main.8900b715.chunk.js.map",
     "runtime-main.js": "/nitay-quest/static/js/runtime-main.22be4a30.js",
     "runtime-main.js.map": "/nitay-quest/static/js/runtime-main.22be4a30.js.map",
-    "static/js/2.06a08632.chunk.js": "/nitay-quest/static/js/2.06a08632.chunk.js",
-    "static/js/2.06a08632.chunk.js.map": "/nitay-quest/static/js/2.06a08632.chunk.js.map",
+    "static/js/2.2934c2b4.chunk.js": "/nitay-quest/static/js/2.2934c2b4.chunk.js",
+    "static/js/2.2934c2b4.chunk.js.map": "/nitay-quest/static/js/2.2934c2b4.chunk.js.map",
     "index.html": "/nitay-quest/index.html",
-    "static/js/2.06a08632.chunk.js.LICENSE.txt": "/nitay-quest/static/js/2.06a08632.chunk.js.LICENSE.txt",
-    "static/media/done.539d44c6.gif": "/nitay-quest/static/media/done.539d44c6.gif",
-    "static/media/happy.1061703d.gif": "/nitay-quest/static/media/happy.1061703d.gif",
-    "static/media/sad.7dd4e3bb.gif": "/nitay-quest/static/media/sad.7dd4e3bb.gif",
-    "static/media/trophy.3409c7e6.png": "/nitay-quest/static/media/trophy.3409c7e6.png"
+    "static/js/2.2934c2b4.chunk.js.LICENSE.txt": "/nitay-quest/static/js/2.2934c2b4.chunk.js.LICENSE.txt",
+    "static/media/done.c948820b.gif": "/nitay-quest/static/media/done.c948820b.gif",
+    "static/media/happy1.417daabf.gif": "/nitay-quest/static/media/happy1.417daabf.gif",
+    "static/media/happy2.0f944bb5.gif": "/nitay-quest/static/media/happy2.0f944bb5.gif",
+    "static/media/happy3.9fd4b66b.gif": "/nitay-quest/static/media/happy3.9fd4b66b.gif",
+    "static/media/sad1.3e130f57.gif": "/nitay-quest/static/media/sad1.3e130f57.gif",
+    "static/media/sad2.371b8893.gif": "/nitay-quest/static/media/sad2.371b8893.gif",
+    "static/media/sad3.e9979ad8.gif": "/nitay-quest/static/media/sad3.e9979ad8.gif",
+    "static/media/trophy.30af1052.gif": "/nitay-quest/static/media/trophy.30af1052.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.22be4a30.js",
-    "static/js/2.06a08632.chunk.js",
-    "static/js/main.d9c666e2.chunk.js"
+    "static/js/2.2934c2b4.chunk.js",
+    "static/js/main.8900b715.chunk.js"
   ]
 }
