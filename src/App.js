@@ -12,13 +12,21 @@ import { questions } from "./data";
 import Done from "./Done";
 
 const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#e91e63', // very red
+    },
+    secondary: {
+      main: '#fcdd56', // very cyan
+    },
+  },
   overrides: {
     MuiListItem: {
       // For ListItem, change this to MuiListItem
       root: {
         "&$selected": {
           // this is to refer to the prop provided by M-UI
-          backgroundColor: "#2196f3 !important", // updated backgroundColor
+          backgroundColor: "#f50057 !important", // updated backgroundColor
           color: "#fff",
         },
       },
@@ -27,8 +35,8 @@ const theme = createMuiTheme({
 });
 
 const phrases = {
-  header1: "שלום ניתאי",
-  header2: "מצא את המטמון",
+  header1: "שלום ארבל",
+  header2: "מצאי את המטמון",
   questionTitle: "שאלה מספר",
 };
 

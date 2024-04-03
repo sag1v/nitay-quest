@@ -12,8 +12,8 @@ import { questions, answers } from "./data";
 import { Badge } from "@material-ui/core";
 
 const phrases = {
-  title: "ענה על החידה",
-  submit: "בדוק את התשובה",
+  title: "עני על החידה",
+  submit: "בדקי את התשובה",
 };
 
 const useStyles = makeStyles((theme) => ({
