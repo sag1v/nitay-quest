@@ -1,11 +1,10 @@
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import doneImage from "./done.gif";
-import trophyImage from "./trophy.png";
-import { Divider } from "@material-ui/core";
+import trophyImage from "./trophy.gif";
 
 const phrases = {
-  title: "ניתאי כל הכבוד!!!",
+  title: "ארבל כל הכבוד!!!",
   subtitle: "הצלחת לפתור את כל החידות",
 };
 
@@ -21,8 +20,8 @@ const Done = () => {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <img style={{ maxWidth: "100%" }} src={doneImage} />
-        <img style={{ width: "100%" }} src={trophyImage} />
+        <img alt="a trophy" style={{ width: "100%" }} src={trophyImage} />
+        <img alt="dancing cat" style={{ maxWidth: "100%" }} src={doneImage} />
       </Grid>
     </Grid>
   );

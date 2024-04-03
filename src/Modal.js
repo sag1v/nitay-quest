@@ -1,5 +1,4 @@
-import { useState, forwardRef } from "react";
-import Grid from "@material-ui/core/Grid";
+import { forwardRef } from "react";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
@@ -8,25 +7,45 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Slide from "@material-ui/core/Slide";
-import sadImage from "./sad.gif";
-import happyImage from "./happy.gif";
+import sadImage1 from "./sad1.gif";
+import sadImage2 from "./sad2.gif";
+import sadImage3 from "./sad3.gif";
+import happyImage1 from "./happy1.gif";
+import happyImage2 from "./happy2.gif";
+import happyImage3 from "./happy3.gif";
 
 const phrases = {
   happy: {
     title: "תשובה נכונה!",
-    content: "אתה טוב, המשך כך",
-    action: "המשך לשאלה הבאה",
+    content: "את טובה, המשיכי כך",
+    action: "המשיכי לשאלה הבאה",
   },
   sad: {
     title: "תשובה לא נכונה",
     content: "לא נורא, תמיד אפשר לנסות שוב",
-    action: "נסה שנית",
+    action: "נסי שנית",
   },
 };
 
-const ModalImage = ({type}) => {
-    return <img style={{width: "100%"}} src={type === "happy" ? happyImage : sadImage} />
+// Generate a random number between min and max (inclusive)
+function generateRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+const happyImages = [happyImage1, happyImage2, happyImage3];
+const sadImages = [sadImage1, sadImage2, sadImage3];
+
+const ModalImage = ({ type }) => {
+  const randomIndex = generateRandomNumber(0, 2);
+  console.log("index is now", randomIndex);
+  return (
+    <img
+      alt="happy or sad cat"
+      style={{ width: "100%" }}
+      src={type === "happy" ? happyImages[randomIndex] : sadImages[randomIndex]}
+    />
+  );
+};
 
 const Transition = forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
